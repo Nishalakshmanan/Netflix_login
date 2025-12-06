@@ -98,7 +98,7 @@ function Login() {
               <p className="text-red-600">{errors.password?.message}</p>
             </div>
 
-            <button className="bg-red-600 p-2 rounded-md">{loading?<ThreeDot color="#32cd32" size="medium" text="" textColor="" />:"Log In"}</button>
+            <button className="bg-red-600 p-2 rounded-md">{loading?<ThreeDot color="white" size="medium" text="" textColor="" />:"Log In"}</button>
           </form>
           <div className="flex justify-between text-xs">
             <div className="flex gap-1">
